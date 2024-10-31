@@ -1,0 +1,27 @@
+{
+	"name": "Task-Manager_Express.js_App",
+	"version": "1.0.0",
+	"main": "app.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "nodemon app.js"
+	},
+	"keywords": [],
+	"author": "Francis Olasupo",
+	"license": "ISC",
+	"description": "A task management application where users can create, read, update, and delete tasks. Users should be able to categorize tasks, set deadlines, and mark tasks as complete or incomplete.",
+	"dependencies": {
+		"bcryptjs": "^2.4.3",
+		"body-parser": "^1.20.3",
+		"cookie-parser": "^1.4.7",
+		"dotenv": "^16.4.5",
+		"express": "^4.21.1",
+		"express-validator": "^7.2.0",
+		"jsonwebtoken": "^9.0.2",
+		"mongodb": "^6.10.0",
+		"mongoose": "^8.5.4",
+		"nodemon": "^3.1.7",
+		"passport": "^0.7.0",
+		"passport-google-oauth20": "^2.0.0"
+	}
+}
